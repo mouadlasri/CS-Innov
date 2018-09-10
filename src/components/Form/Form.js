@@ -4,9 +4,40 @@ import './Form.css';
 class Form extends React.Component {
     render() {
         return (
-            <div id="joinForm">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWCsOLouxFU2d6XRltieiBTxiq2XkvGspAUzoc51HoKK6x9w/viewform?embedded=true" width="640" height="790" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </div>
+            // <form>
+            //     <div class="form-group">
+            //         <label for="exampleInputEmail1">Email address</label>
+            //         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+            //         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            //     </div>
+            //     <div class="form-group">
+            //         <label for="exampleInputPassword1">Password</label>
+            //         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ID" />
+            //     </div>
+            //         <button type="submit" class="btn btn-primary">Submit</button>
+            // </form>
+            <form action="" style={{width: "500px", margin: "auto"}}>
+                <div className="row">
+                    <div className="col">
+                        <div className="form-group">
+                            <label htmlFor="fullname" style={{ float: "left" }}>Name</label>
+                            <input type="text" name="fullname" id="fullname" class="form-control" />
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="form-group">
+                            <label htmlFor="fullname" style={{ float: "left" }}>ID</label>
+                            <input type="text" name="id" id="id" className="form-control" />
+                        </div>
+                    </div>
+                </div>
+               <div className="form-group">
+                <label htmlFor="description" style={{ float: "left" }}>Brief Description (Year, Major, Interests..)</label>
+                <textarea name="" id="" rows="5" className="form-control"></textarea>
+               </div>
+                <button type="submit" className="form-control btn btn-info">Submit</button>
+                
+            </form>
         )
     }
 }

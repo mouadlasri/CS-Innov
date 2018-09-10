@@ -32,7 +32,8 @@ class MainSection extends React.Component {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="jumbotron">
-                            test
+                            <h4>Who are we?</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur commodi quae suscipit ex nesciunt eum minima et animi quasi! Mollitia dolores consectetur officia. Repudiandae provident et repellendus nulla eligendi voluptatum cupiditate. Enim, necessitatibus amet. Aliquid quia id dolorum maiores repellat nemo. Repellendus exercitationem incidunt dolor rerum quasi soluta vero ullam?</p>
                         </div>
                     </div>
                     <div className="col-md-6 event-container">
