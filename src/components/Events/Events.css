@@ -1,0 +1,46 @@
+
+.event-date {
+  background-color: orange;
+}
+
+.event-day {
+  font-size: 3rem;
+  width: 100% !important;
+  display: inline-block;
+}
+
+.event-month {
+  font-size: 1.5rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.event-container .row {
+  
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.event-subtitle {
+  float: left;
+}
+
+.event-details {
+  
+}
+
+.event-details p{
+  float: left;
+}
+
+.event-summary {
+  
+}
+
+.event-summary p {
+
+}
+
+.event-title{
+  width: 100%;
+}
