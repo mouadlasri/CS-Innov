@@ -23,7 +23,7 @@ const Events = (props) => {
                 </p>
                 </div>
                 <div className="col-md-4 col-lg-4 event-summary">
-                    <p >Join us for free pizza, drinks, and coding tutorials every Tuesday</p>
+                    <p>{event.description}</p>
                 </div>
             </div>
         )
@@ -32,7 +32,7 @@ const Events = (props) => {
     console.log('Event list:', eventsList);
     return (
         <div className="events" id="eventsInfo" >
-            <h1>Upcoming events</h1>
+            <h1 className="upcoming-events-title">Upcoming events</h1>
             {eventsList}
         </div>
         

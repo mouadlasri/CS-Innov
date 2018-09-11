@@ -10,19 +10,19 @@ class Eventpage extends React.Component {
         events: [
             {
                 id: 1,
-                date: '3',
+                date: '13',
                 month: 'SEP',
-                location: 'Building 14, downstairs',
+                location: 'Soccer Field',
                 time: '8:30 pm',
-                description: 'Description of the event',
+                description: 'Join us at the Clubs Fair to learn more about the club and its activities! This is your occasion to join a new family!',
             },
             {
                 id: 2,
-                date: '3',
+                date: '20',
                 month: 'SEP',
-                location: 'Lab 7',
-                time: '8 pm',
-                description: 'Description of the event',
+                location: 'SAO Meeting Room, Building 14 upstairs',
+                time: '9 pm',
+                description: 'Our first club meeting. Come join us to discuss the events and plans for this semester!',
             }
         ]
     }
