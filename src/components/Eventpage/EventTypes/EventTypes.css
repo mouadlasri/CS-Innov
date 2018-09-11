@@ -7,14 +7,6 @@
     color: white;
 }
 
-.hackathon {
-    background-image: url('http://gradlebuilders.com/wp-content/uploads/2018/08/saiba-como-se-tornar-um-desenvolvedor-mobile.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: grayscale(100%);
-    transition: all 0.5s ease;
-}
-
 .hackathon:hover, .trips:hover, .gaming:hover, .workshops:hover{
     filter: grayscale(0%);
     background-position: 0% 50%;
@@ -38,12 +30,20 @@
     padding-right: 20px;
 }
 
+.hackathon {
+    background-image: url('http://gradlebuilders.com/wp-content/uploads/2018/08/saiba-como-se-tornar-um-desenvolvedor-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0%);
+    transition: all 0.5s ease;
+}
+
 .trips {
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg'); */
     background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     /* background-position: 0% -100%; */
     transition: all 0.5s ease;
 }
@@ -52,7 +52,7 @@
     background-image: url('https://i.ytimg.com/vi/Dp4nRKF2cuw/maxresdefault.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transition: all 0.5s ease;
 }
 
@@ -65,7 +65,7 @@
     background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     transition: all 0.5s ease;
 }
 
