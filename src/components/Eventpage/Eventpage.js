@@ -30,14 +30,18 @@ class Eventpage extends React.Component {
     render() {
         return (
             <div className="event-page container-fluid">
-                <Toolbar />
+                <div className="Toolbar-color">
+                    <Toolbar />
+                </div>
+                <div className="events-description">
+                    <h1>Events</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis omnis, soluta sed rem sit at eum autem error incidunt. Ipsam!</p>
+                </div>
                 <EventTypes />
                 <Events events={this.state.events} />
             </div>
-           
         )
     }
-    
 }
 
 export default Eventpage;

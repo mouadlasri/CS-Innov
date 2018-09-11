@@ -1,5 +1,10 @@
+.event-types {
+    margin: 0;
+    padding: 0;
+}
 
-.test3 {
+.event-types h1 {
+    color: white;
 }
 
 .hackathon {
@@ -12,21 +17,34 @@
 
 .hackathon:hover, .trips:hover, .gaming:hover, .workshops:hover{
     filter: grayscale(0%);
-    /* background-position: 0% 50%; */
-    transform: scale(1.05);
+    background-position: 0% 50%;
+    /* transform: scale(1.05); */
 }
 
-
-.event-types h1 {
+.hackathon:hover, .trips:hover, .gaming:hover, .workshops:hover {
     color: white;
 }
 
+.hackathon:hover p, .trips:hover p, .gaming:hover p, .workshops:hover p{
+    color: white;
+    padding-top: 30px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.hackathon p, .trips p, .gaming p, .workshops p {
+    transition: all 0.5s ease-in-out;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .trips {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg');
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg'); */
+    background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%);
-    background-position: 30% 0%;
+    /* background-position: 0% -100%; */
     transition: all 0.5s ease;
 }
 
@@ -39,15 +57,33 @@
 }
 
 .workshops {
-    background-image: url('http://www.7techsolutions.com/assets/img/webDevelopment.png');
+    /* background-image: url('http://www.7techsolutions.com/assets/img/webDevelopment.png'); */
+    /* background-image: url('https://www.developeronrent.com/newcss/images/full_stack_sq.jpg');   */
+    background-image: url('https://www.acesoftech.com/wp-content/uploads/mean-stack1.jpg');
+    /* background-image: url('https://www.weblineindia.com/wp-content/uploads/2017/03/full-stack-development-by-weblineindia.jpg'); */
+    /* background-image: url('./mean-stack.jpg'); */
+    background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%);
     transition: all 0.5s ease;
 }
 
+.workshops:hover {
+    background-position: -100% 0% !important;
+}
+
 .hackathon, .trips, .gaming, .workshops {
-    width: 300px;
-    height: 300px;
-    border-radius: 5px;
+    /* width: 300px; */
+    height: 350px;
+}
+
+.hackathon, .workshops {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.trips, .gaming {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
