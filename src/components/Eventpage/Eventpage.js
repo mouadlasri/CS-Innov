@@ -34,7 +34,7 @@ class Eventpage extends React.Component {
                     <Toolbar />
                 </div>
                 <div className="events-description">
-                    <h1>Events</h1>
+                    <h1 className="upcoming-events-title">Events</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis omnis, soluta sed rem sit at eum autem error incidunt. Ipsam!</p>
                 </div>
                 <EventTypes />

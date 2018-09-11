@@ -5,8 +5,11 @@ import './Aboutpage.css';
 
 const Aboutpage = () => {
     return (
-        <div className="container about-page">
-            <h1 className="title">Who are We?</h1>
+        <div className="container-fluid about-page">
+            <div className="Toolbar-color">
+                <Toolbar />
+            </div>
+            <h1 className="about-title">Who are We?</h1>
             <div className="row about-info">
                 <div className="col-md-5 test2 align-center">
                     <p className=" align-middle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae aspernatur 
