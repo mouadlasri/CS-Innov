@@ -19,7 +19,7 @@ const Toolbar = () => {
                         <NavLink to="/aboutus" className="nav-item nav-link">About us</NavLink>
                         <NavLink to ="/events" className="nav-item nav-link">Events</NavLink>
                         {/* <NavLink to="/joinus" className="nav-item nav-link btn btn-info">Join us</NavLink> */}
-                        <NavLink to="/joinus"><button className="btn btn-info">Join us</button></NavLink>
+                        <NavLink to="/joinus"><button className="btn btn-info button-join">Join us</button></NavLink>
                         {/* <a className="nav-item nav-link" href="#">Home</a>
                         <a className="nav-item nav-link" href="#clubInfo">About us</a>
                         <a className="nav-item nav-link" href="#eventsInfo">Events</a>
