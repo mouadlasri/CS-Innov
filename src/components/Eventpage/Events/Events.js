@@ -32,6 +32,7 @@ const Events = (props) => {
     console.log('Event list:', eventsList);
     return (
         <div className="events" id="eventsInfo" >
+            <h1>Upcoming events</h1>
             {eventsList}
         </div>
         

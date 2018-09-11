@@ -1,0 +1,16 @@
+.title {
+    display: inline;    
+    border-bottom: 2px solid #0080ff;
+}
+
+.about-info {
+    margin-top: 30px;
+}
+
+.test2 {
+    border: 2px solid red;
+}
+
+.about-page {
+    background-color: #f1f1f1;
+}

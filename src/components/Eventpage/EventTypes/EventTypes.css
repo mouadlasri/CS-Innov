@@ -1,0 +1,53 @@
+
+.test3 {
+}
+
+.hackathon {
+    background-image: url('http://gradlebuilders.com/wp-content/uploads/2018/08/saiba-como-se-tornar-um-desenvolvedor-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.hackathon:hover, .trips:hover, .gaming:hover, .workshops:hover{
+    filter: grayscale(0%);
+    /* background-position: 0% 50%; */
+    transform: scale(1.05);
+}
+
+
+.event-types h1 {
+    color: white;
+}
+
+.trips {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    background-position: 30% 0%;
+    transition: all 0.5s ease;
+}
+
+.gaming {
+    background-image: url('https://i.ytimg.com/vi/Dp4nRKF2cuw/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.workshops {
+    background-image: url('http://www.7techsolutions.com/assets/img/webDevelopment.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.hackathon, .trips, .gaming, .workshops {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}

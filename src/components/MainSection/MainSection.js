@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './MainSection.css';
-import Events from '../Events/Events.js';
+import Events from '../Eventpage/Events/Events.js';
 import ClubInfo from '../ClubInfo/ClubInfo.js';
 
 class MainSection extends React.Component {

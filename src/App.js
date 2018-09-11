@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Homepage from './components/Homepage/Homepage.js';
+import Aboutpage from './components/Aboutpage/Aboutpage.js';
+import Eventpage from './components/Eventpage/Eventpage.js';
+
 import './App.css';
-import Toolbar from '../src/components/Toolbar/Toolbar.js';
-import Events from '../src/components/Events/Events.js';
-import MainSection from '../src/components/MainSection/MainSection.js';
-import Footer from '../src/components/Footer/Footer.js';
-import Form from '../src/components/Form/Form.js';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Toolbar />
-        <main style={{marginTop: "56px"}}>
-          <MainSection /> 
-          <Form />
-        </main>
-        <footer>
-          <Footer />
-        </footer>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Route exact path='/' component={Homepage} />
+          <Route path='/aboutus' component={Aboutpage} />
+          <Route path='/events' component={Eventpage} />
+        </div>
+      </BrowserRouter>
     );
   }
 }

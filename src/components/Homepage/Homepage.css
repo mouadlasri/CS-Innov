@@ -1,0 +1,9 @@
+.main-section {
+  height: 600px;
+  width: 100%;
+  /* background-color: #d3d3d3; */
+  background-attachment: fixed;
+  background-image: url('../../test1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

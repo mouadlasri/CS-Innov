@@ -21,7 +21,7 @@ class Form extends React.Component {
                     <div className="col">
                         <div className="form-group">
                             <label htmlFor="fullname" style={{ float: "left" }}>Name</label>
-                            <input type="text" name="fullname" id="fullname" class="form-control" />
+                            <input type="text" name="fullname" id="fullname" className="form-control" />
                         </div>
                     </div>
                     <div className="col">
