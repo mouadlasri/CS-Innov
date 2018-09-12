@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -7,7 +8,7 @@ const Footer = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12">
-                        <p>Copyright AUI CSI club 2018</p>
+                        <p>© <span>2018</span> Copyright: <span><NavLink to='/'>CSInnov.com</NavLink></span></p>
                     </div>
                 </div>
             </div>

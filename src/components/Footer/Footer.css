@@ -1,6 +1,8 @@
 
 footer {
-    background-color: black;
+    background-color: #343a40;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 footer p {
@@ -8,4 +10,20 @@ footer p {
     justify-content: center;
     padding: 10px;
     margin: 0 auto;
+    color: white;
+    font-family: 'Montserrat';  
+}
+
+footer p span {
+    color: #17a2b8;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: inherit;
 }
