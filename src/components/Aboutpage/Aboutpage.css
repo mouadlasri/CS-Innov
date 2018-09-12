@@ -5,15 +5,27 @@
 }
 
 .about-info {
-    margin-top: 30px;
-}
-
-.test2 {
-    border: 2px solid red;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about-page {
     background-color: #f1f1f1;
     margin: 0;
     padding: 0;
+}
+
+.about-text {
+    background-color: #343a40;
+    color: #f1f1f1;
+    font-family: 'Montserrat';
+    padding-top: 50px;
+    border-radius: 4px;
+    height: 300px;
+}
+
+.about-image {
+    background-color: #c3c3c3;
+    border-radius: 4px;
 }

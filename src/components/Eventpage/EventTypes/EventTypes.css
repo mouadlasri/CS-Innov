@@ -40,11 +40,13 @@
 
 .trips {
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg'); */
-    background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg');
+    /*used one*//* background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg'); */
+    background-image: url('./devoxx-logo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0%);
-    /* background-position: 0% -100%; */
+    /* background-position: 0% 0%; */
+    /* background-position-y: 10px; */
     transition: all 0.5s ease;
 }
 
