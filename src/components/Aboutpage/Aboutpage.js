@@ -66,17 +66,19 @@ const Aboutpage = () => {
                 <div className="col-md-4 offset-md-7 about-image-2">
                 </div>
             </div> */}
-            <h1 className="about-title">Who are We?</h1>
-            <div className="row who-are-we">
+            
+            <div className="row">
+                <h1 className="about-title">Who are We?</h1>
                 <div className="col-10 mr-auto ml-auto">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim numquam ratione, 
+                    <p style={{marginBottom: "50px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim numquam ratione, 
                         aut possimus sit adipisci nisi eum unde quia ipsa? Facilis error autem eos sed sapiente voluptates, illum nesciunt
                          corporis cumque necessitinctio </p>
                     <div className="row">
-                        <div className="col-md-6 about-image-1">
+                        <div className="col-md-5 about-image-1">
                             
                         </div>
-                        <div className="col-md-6 about-image-2">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-5 about-image-2">
                         
                         </div>
                     </div>
