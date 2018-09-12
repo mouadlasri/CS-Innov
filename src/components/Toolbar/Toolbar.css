@@ -41,8 +41,30 @@ html {
     margin-top: 20px;
 }
 
-.navbar-brand {
+.navbar-brand-1, .navbar-brand-2, .navbar-brand-3, .navbar-brand-4, .navbar-brand-5 {
     color: white !important;
+    margin-right: 20px;
+    /* font-family: 'Indie Flower', cursive; */
+}
+
+.navbar-brand-1 {
+    font-family: 'Indie FLower';
+}
+
+.navbar-brand-2 {
+    font-family: 'Lobster';
+}
+
+.navbar-brand-3 {
+    font-family: 'Pacifico';
+}
+
+.navbar-brand-4 {
+    font-family: 'Righteous';
+}
+
+.navbar-brand-5 {
+    font-family: 'Merienda', cursive;
 }
 
 .button-join {

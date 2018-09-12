@@ -2,7 +2,7 @@ import React from 'react';
 import Events from './Events/Events.js';
 import Toolbar from '../Toolbar/Toolbar.js';
 import EventTypes from './EventTypes/EventTypes.js';
-
+import { NavLink } from 'react-router-dom';
 import './Eventpage.css';
 
 class Eventpage extends React.Component {
@@ -26,7 +26,9 @@ class Eventpage extends React.Component {
             }
         ]
     }
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div className="event-page container-fluid">
@@ -39,6 +41,7 @@ class Eventpage extends React.Component {
                 </div>
                 <EventTypes />
                 <Events events={this.state.events} />
+                <NavLink to="/joinus"><button className="events-button">Join us!</button></NavLink>
             </div>
         )
     }

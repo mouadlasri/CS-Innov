@@ -1,6 +1,6 @@
 import React from 'react';
 import Toolbar from '../Toolbar/Toolbar.js';
-
+import { NavLink } from 'react-router-dom';
 import './Aboutpage.css';
 
 const Aboutpage = () => {
@@ -68,6 +68,7 @@ const Aboutpage = () => {
                     {/* <img src="https://via.placeholder.com/400x300" /> */}
                 </div>
             </div>
+            <NavLink to="/events"><button className="events-button">Learn about our Events</button></NavLink>
         </div>
     )
 }
