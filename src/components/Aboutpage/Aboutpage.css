@@ -75,6 +75,7 @@
     padding: 20px 30px 20px 30px;
     transition: all 0.7s ease;
     font-family: 'Montserrat';
+    margin-bottom: 40px;
 }
 
 .events-button:hover {
