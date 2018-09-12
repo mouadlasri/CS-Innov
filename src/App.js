@@ -4,7 +4,7 @@ import Homepage from './components/Homepage/Homepage.js';
 import Aboutpage from './components/Aboutpage/Aboutpage.js';
 import Eventpage from './components/Eventpage/Eventpage.js';
 import Footer from './components/Footer/Footer.js';
-
+import Joinpage from './components/Joinpage/Joinpage.js';
 import './App.css';
 
 
@@ -16,7 +16,10 @@ class App extends Component {
           <Route exact path='/' component={Homepage} />
           <Route path='/aboutus' component={Aboutpage} />
           <Route path='/events' component={Eventpage} />
-          <Footer />
+          <Route path='/joinus' component={Joinpage} />
+          <div className="sticky">
+            <Footer />
+          </div>
         </div>
       </BrowserRouter>
     );

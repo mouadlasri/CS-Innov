@@ -48,6 +48,7 @@
     /* border: 1px solid #343a40; */
     border-radius: 4px;
     height: 300px;
+    filter: brightness(90%);
     /* border-right: solid 1px black; */
 }
 

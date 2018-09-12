@@ -5,45 +5,6 @@ body {
 }
 
 
-.nav-wrapper {
-  overflow: hidden;
-  /* background-color: none !important; */
-}
-/* 
-nav {
-  background: none;
-} */
-
-.container {
-  border: 2px solid red;
-}
-
-.nav-wrapper ul {
-  margin-left: 40px;
-  margin-right: 40px;
-  justify-content: center;
-}
-
-.valign-wrapper {
-  height: 100%;
-}
-
-.nav-text {
-  margin-top: 60px;
-}
-
-.join-btn {
-  margin-top: 0px;
-  transform: translate(0px, -10px);
-}
-
-
 @media screen and (max-width: 599px) {
-  .logo-div {
-    display: none;
-  }
-
-  .nav-text {
-    margin-top: 10px;
-  }
+  
 }
