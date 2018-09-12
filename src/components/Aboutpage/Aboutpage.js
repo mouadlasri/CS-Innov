@@ -41,7 +41,7 @@ const Aboutpage = () => {
             <div className="Toolbar-color">
                 <Toolbar />
             </div>
-            <h1 className="about-title">Who are We?</h1>
+            {/* <h1 className="about-title">Who are We?</h1>
             <div className="row about-info justify-content-start">
                 <div className="col-md-4 offset-md-1 about-text align-center">
                     <h4>Computer Science for Innovation</h4>
@@ -53,7 +53,6 @@ const Aboutpage = () => {
             </div>
             <div className="row about-info">
                 <div className="col-md-4 offset-md-7 about-image-1">
-                    {/* <img src="" style={{width: "100%", backgroundColor: "red"}} /> */}
                 </div>
             </div>
             <div className="row about-info justify-content-start">
@@ -65,7 +64,22 @@ const Aboutpage = () => {
             </div>
             <div className="row about-info">
                 <div className="col-md-4 offset-md-7 about-image-2">
-                    {/* <img src="https://via.placeholder.com/400x300" /> */}
+                </div>
+            </div> */}
+            <h1 className="about-title">Who are We?</h1>
+            <div className="row who-are-we">
+                <div className="col-10 mr-auto ml-auto">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim numquam ratione, 
+                        aut possimus sit adipisci nisi eum unde quia ipsa? Facilis error autem eos sed sapiente voluptates, illum nesciunt
+                         corporis cumque necessitinctio </p>
+                    <div className="row">
+                        <div className="col-md-6 about-image-1">
+                            
+                        </div>
+                        <div className="col-md-6 about-image-2">
+                        
+                        </div>
+                    </div>
                 </div>
             </div>
             <NavLink to="/events"><button className="events-button">Learn about our Events</button></NavLink>

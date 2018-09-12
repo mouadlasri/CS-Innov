@@ -1,7 +1,8 @@
 .about-title {
     display: inline-block;    
     margin-top: 30px;
-    border-bottom: 2px solid #0080ff;
+    /* border-bottom: 2px solid #0080ff; */
+    font-size: 50px;
 }
 
 .about-info {
@@ -44,12 +45,13 @@
     background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/17498977_10212466583042785_1085763098092902046_n.jpg?_nc_cat=0&oh=baa2f22b0512c32d2a72570f6f94cdc5&oe=5C26C22E');
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 3px 2px #282a2d;
+    /* box-shadow: inset 0 0 3px 2px #282a2d; */
     /* border: 1px solid #343a40; */
     border-radius: 4px;
     height: 300px;
     filter: brightness(90%);
     /* border-right: solid 1px black; */
+    filter: blur(5px);
 }
 
 .about-image-2 {
@@ -61,6 +63,7 @@
     border-radius: 4px;
     height: 300px;
     /* border-right: solid 1px black; */
+    filter: blue(30px);
 }
 
 .separator {
@@ -84,3 +87,12 @@
     color: white;
     cursor: pointer;
 }
+
+.who-are-we {
+    background-image: url('https://image.shutterstock.com/z/stock-photo-line-web-concept-for-computer-science-modern-linear-symbol-for-computer-programming-681346903.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(10%);
+    
+}
+
