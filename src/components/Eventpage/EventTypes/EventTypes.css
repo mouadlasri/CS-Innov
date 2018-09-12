@@ -5,22 +5,31 @@
 
 .event-types h1 {
     color: white;
+    vertical-align: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
 }
+
 
 .hackathon:hover, .trips:hover, .gaming:hover, .workshops:hover{
     filter: grayscale(0%);
     background-position: 0% 50%;
+    color: white;
     /* transform: scale(1.05); */
 }
 
-.hackathon:hover, .trips:hover, .gaming:hover, .workshops:hover {
-    color: white;
+.hackathon:hover h1 {
+    height: initial;
 }
 
 .hackathon:hover p, .trips:hover p, .gaming:hover p, .workshops:hover p{
     color: white;
     padding-top: 30px;
     transition: all 0.5s ease-in-out;
+    visibility: visible;
+    /* display:  */
     
 }
 
@@ -28,13 +37,14 @@
     transition: all 0.5s ease-in-out;
     padding-left: 20px;
     padding-right: 20px;
+    visibility: hidden;
 }
 
 .hackathon {
     background-image: url('http://gradlebuilders.com/wp-content/uploads/2018/08/saiba-como-se-tornar-um-desenvolvedor-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(0%);
+    filter: grayscale(40%);
     transition: all 0.5s ease;
 }
 
@@ -77,10 +87,11 @@
 
 .hackathon, .trips, .gaming, .workshops {
     /* width: 300px; */
+    filter: grayscale(40%);
     height: 350px;
 }
 
-.hackathon, .workshops {
+/* .hackathon, .workshops {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -88,4 +99,4 @@
 .trips, .gaming {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-}
+} */

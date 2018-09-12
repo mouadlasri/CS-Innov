@@ -10,7 +10,7 @@ const Joinpage = () => {
             <div className="Toolbar-color">
                 <Toolbar />
             </div>
-            <div>
+            <div className="join-page-form">
                 <Form />                
             </div>
             {/* <div className="footer-position">

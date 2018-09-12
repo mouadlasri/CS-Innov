@@ -11,7 +11,7 @@ import './Homepage.css';
 const Homepage = () => {
     return (
         <div>
-            <div className="main-section">
+            <div className="home-page">
                 <Toolbar />
             </div>
             

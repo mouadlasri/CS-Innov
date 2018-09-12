@@ -4,6 +4,13 @@ body {
   font-family: sans-serif;
 }
 
+.row {
+  margin-right: 0px;
+}
+
+.about-page, .join-page, .home-page, .event-page {
+  min-height: calc(100vh - 0px);
+}
 
 @media screen and (max-width: 599px) {
   

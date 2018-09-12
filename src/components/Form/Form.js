@@ -17,7 +17,7 @@ class Form extends React.Component {
             //         <button type="submit" class="btn btn-primary">Submit</button>
             // </form>
             <form style={{ width: "500px", margin: "auto" }} action="https://formspree.io/mordein@gmail.com"
-                method="POST" enctype="text/plain">
+                method="POST" encType="text/plain">
                 <div className="row">
                     <div className="col">
                         <div className="form-group">
