@@ -7,22 +7,24 @@ const EventTypes = () => {
     return (
         <div className="container-fluid event-types">
             <div className="row">
-                <div className="col-md-6 ml-auto mr-auto test3 hackathon">
+                <div className="col-md-6 ml-auto mr-auto hackathon">
                     <h1>Hackathons</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur nisi eius numquam et odit quos ullam, asperiores accusamus, veritatis laborum dolorem iure, earum quisquam ad nemo autem necessitatibus dignissimos?</p>
+                    <p>Every semester, CSI sets up themed hackathons for AUI community. Everyone is free
+                        to join and take part in the competition.
+                    </p>
                 </div>
-                <div className="col-md-6  ml-auto mr-auto test3 trips">
+                <div className="col-md-6  ml-auto mr-auto trips">
                     <h1>Trips & Talks</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, ipsum nobis ut in libero corporis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat tempora tenetur vitae veniam sunt?</p>
                 </div>
 
             </div>
             <div className="row" style={{ marginTop: "0px" }}>
-                <div className="col-md-6 ml-auto mr-auto test3 workshops">
+                <div className="col-md-6 ml-auto mr-auto workshops">
                     <h1>Workshops</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos rerum praesentium magni fuga amet porro harum, cum obcaecati expedita minus unde nemo! Provident, omnis!</p>
                 </div>
-                <div className="col-md-6 ml-auto mr-auto test3 gaming">
+                <div className="col-md-6 ml-auto mr-auto gaming">
                     <h1>Gaming</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos rerum praesentium magni fuga amet porro harum, cum obcaecati expedita minus unde nemo! Provident, omnis!</p>
                 </div>

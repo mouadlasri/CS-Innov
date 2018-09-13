@@ -37,7 +37,8 @@ class Eventpage extends React.Component {
                 </div>
                 <div className="events-description">
                     <h1 className="upcoming-events-title">Events</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis omnis, soluta sed rem sit at eum autem error incidunt. Ipsam!</p>
+                    <p>Computer Science for Innovation organizes a wide variety of events ranging
+                         from hackathons and workshops to trips and gaming events!</p>
                 </div>
                 <EventTypes />
                 <Events events={this.state.events} />
