@@ -10,7 +10,7 @@ class Eventpage extends React.Component {
         events: [
             {
                 id: 1,
-                date: '13',
+                date: '17',
                 month: 'SEP',
                 location: 'Soccer Field',
                 time: '8:30 pm',
@@ -18,7 +18,7 @@ class Eventpage extends React.Component {
             },
             {
                 id: 2,
-                date: '20',
+                date: '21',
                 month: 'SEP',
                 location: 'SAO Meeting Room, Building 14 upstairs',
                 time: '9 pm',

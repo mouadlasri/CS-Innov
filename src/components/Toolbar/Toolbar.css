@@ -38,7 +38,9 @@ html {
 }
 
 .nav {
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    align-content: center;
 }
 
 .navbar-brand-1, .navbar-brand-2, .navbar-brand-3, .navbar-brand-4, .navbar-brand-5 {
@@ -50,7 +52,7 @@ html {
 .navbar-brand {
     font-family: 'Pacifico';
     color: white !important;
-    font-size: 2.5rem
+    font-size: 2.5rem;
 }
 
 
@@ -65,3 +67,46 @@ html {
     transform: scale(1.1);
 }
 
+
+@media (max-width: 768px) {
+    .nav-item {
+        text-align: center;
+    }
+
+    .nav {
+        justify-content: center !important;
+        /* margin-left: 0px;/ */
+    }
+/* 
+    .navbar-nav {
+        margin-top: 0px;
+    }
+
+    .button-join {
+        margin-top: 10px;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center !important;
+    }
+
+    .navbar-nav {
+        display: inline-block !important;
+        float: none !important;
+    } */
+}
+
+@media (max-width: 490px) {
+    .button-join {
+        margin-top: 20px !important;
+    }
+
+    .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+    .nav-item {
+        display: inline-block !important;
+        width: 100%;
+    }
+}
