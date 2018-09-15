@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Toolbar.css';
-import CSILogo from '../../csi-logo2.png';
+// import CSILogo from '../../csi-logo2.png';
 
 const Toolbar = () => {
     return (

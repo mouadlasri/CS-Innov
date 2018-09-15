@@ -66,7 +66,7 @@
 }
 
 .hackathon {
-    background-image: url('http://gradlebuilders.com/wp-content/uploads/2018/08/saiba-como-se-tornar-um-desenvolvedor-mobile.jpg');
+    background-image: url('../../../hackathons.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(40%);
@@ -76,7 +76,7 @@
 .trips {
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg'); */
     /*used one*//* background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg'); */
-    background-image: url('./devoxx-logo.jpg');
+    background-image: url('../../../devoxx-logo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0%);
@@ -86,7 +86,7 @@
 }
 
 .gaming {
-    background-image: url('https://i.ytimg.com/vi/Dp4nRKF2cuw/maxresdefault.jpg');
+    background-image: url('../../../gaming.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0%);
@@ -99,7 +99,7 @@
     /* Used one  background-image: url('https://www.acesoftech.com/wp-content/uploads/mean-stack1.jpg'); */
     /* background-image: url('https://www.weblineindia.com/wp-content/uploads/2017/03/full-stack-development-by-weblineindia.jpg'); */
     /* background-image: url('./mean-stack.jpg'); */
-    background-image: url('http://getwallpapers.com/wallpaper/full/5/6/8/489112.jpg');
+    background-image: url('../../../workshops.jpg');
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
