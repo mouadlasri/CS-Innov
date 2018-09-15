@@ -37,7 +37,7 @@ app.post('/joinForm', (req, res) => {
     var name = req.body.name;
     var description = req.body.description;
     var subject = 'A new member wants to join the club!';
-    var content = '<p>' + name + 'wants to join the club. \n' + description + '</p>';
+    var content = '<p> ' + name + ', with id ' + ' wants to join the club. <br />' + description + '</p>';
 
     const mailOptions = {
         from: 'csinnov.contact@gmail.com',
