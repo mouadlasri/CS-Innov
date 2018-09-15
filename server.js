@@ -16,11 +16,43 @@ app.use(function (req, res, next) {
     next();
 });
 
+
+var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: 'csinnov.contact@gmail.com',
+        pass: 'csiaui123'
+    }
+});
+
 // server static files from the react app
 app.use(express.static(__dirname + '/client/build'));
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'));
+});
+
+app.post('/joinForm', (req, res) => {
+    var id = req.body.id;
+    var name = req.body.name;
+    var description = req.body.description;
+    var subject = 'A new member wants to join the club!';
+    var content = '<p>' + name + 'wants to join the club. \n' + description + '</p>';
+
+    const mailOptions = {
+        from: 'csinnov.contact@gmail.com',
+        to: 'csinnov.contact@gmail.com',
+        subject: subject,
+        html: content
+    };
+
+    transporter.sendMail(mailOptions, (err, info) => {
+        if (err) console.log(err);
+        else console.log(info);
+    });
+    
+    console.log('Sending an email');
+    res.redirect("/joinus");
 });
 
 app.listen(port, () => {

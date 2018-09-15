@@ -15,18 +15,19 @@ const EventTypes = () => {
                 </div>
                 <div className="col-md-6  ml-auto mr-auto trips">
                     <h1>Trips & Talks</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat tempora tenetur vitae veniam sunt?</p>
+                    <p>To fulfill its educational curiosity, CSI organizes trips to the most important tech conferences in Morocco
+                         but also brings guest speakers to the university to share their knowledge and experiences.</p>
                 </div>
 
             </div>
             <div className="row" style={{ marginTop: "0px" }}>
                 <div className="col-md-6 ml-auto mr-auto workshops">
                     <h1>Workshops</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos rerum praesentium magni fuga amet porro harum, cum obcaecati expedita minus unde nemo! Provident, omnis!</p>
+                    <p>Each semester, Computer Science for Innovation organizes various workshops in different fields of computer science (Web Dev, Mobile Dev, AI...).</p>
                 </div>
                 <div className="col-md-6 ml-auto mr-auto gaming">
                     <h1>Gaming</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos rerum praesentium magni fuga amet porro harum, cum obcaecati expedita minus unde nemo! Provident, omnis!</p>
+                    <p>The club organizes yearly gaming tournaments for the gaming community at AUI to gather and compete for the title of the best team in the university!</p>
                 </div>
             </div>
         </div>

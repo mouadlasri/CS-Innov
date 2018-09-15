@@ -9,10 +9,11 @@
     justify-content: center;
     align-items: center;
     display: flex; */
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
     padding-top: 18%;
     transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
 }
 
 .event-types p {
@@ -32,13 +33,16 @@
 
 
 .hackathon:hover h1, .trips:hover h1, .gaming:hover h1, .workshops:hover h1 {
-    color: #17a2b8;
+    /* color: #17a2b8; */
+    color: black;
+    /* color: white; */
     font-family: 'Montserrat';
     transform: translate(0%, -45%);
+    -webkit-transform: translate(0%, -45%);
 }
 
-.hackathon:hover, .trips:hover, .gaming:hover {
-    filter: grayscale(0%);
+.hackathon:hover, .trips:hover, .gaming:hover, workshops:hover {
+    /* filter: grayscale(0%); */
     background-position: 0% 50%;
     color: white;
 }
@@ -49,24 +53,21 @@
     transition: all 1s ease-in-out;
     opacity: 1;
     visibility: visible;
-    /* display: flex;
-    align-items: center; */
-    /* transform: translate(0%, -30%); */
-    /* display:  */
+
 }
 
 .hackathon p, .trips p, .gaming p, .workshops p {
     transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
     padding-left: 20px;
     padding-right: 20px;
     visibility: hidden;
     opacity: 0;
-    /* transition: all 2s ease-in-out; */
-    /* transform: translate(0%, 50%); */
 }
 
 .hackathon {
-    background-image: url('../../../hackathons.jpg');
+    /* background-image: url('../../../hackathons.jpg'); */
+    background-image: url('https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(40%);
@@ -76,17 +77,18 @@
 .trips {
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg'); */
     /*used one*//* background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg'); */
-    background-image: url('../../../devoxx-logo.jpg');
+    /* background-image: url('../../../devoxx-logo.jpg'); */
+    background-image: url('../../../trips.png');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
     /* background-position: 0% 0%; */
     /* background-position-y: 10px; */
     transition: all 0.5s ease;
 }
 
 .gaming {
-    background-image: url('../../../gaming.jpg');
+    background-image: url('../../../gaming-op.png');
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0%);
@@ -94,12 +96,10 @@
 }
 
 .workshops {
-    /* background-image: url('http://www.7techsolutions.com/assets/img/webDevelopment.png'); */
-    /* background-image: url('https://www.developeronrent.com/newcss/images/full_stack_sq.jpg');   */
-    /* Used one  background-image: url('https://www.acesoftech.com/wp-content/uploads/mean-stack1.jpg'); */
-    /* background-image: url('https://www.weblineindia.com/wp-content/uploads/2017/03/full-stack-development-by-weblineindia.jpg'); */
     /* background-image: url('./mean-stack.jpg'); */
-    background-image: url('../../../workshops.jpg');
+    /* background-image: url('../../../workshops.jpg'); */
+    /* background-image: url('../../../opacity-workshops.png'); */
+    background-image: url('https://adrianalonso.es/wp-content/uploads/2017/05/code.jpg');
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,3 +124,18 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 } */
+
+@-moz-document url-prefix() {
+
+    .hackathon {
+        opacity: 0.4;
+    }
+
+    .hackathon, .gaming, .workshops, .trips {
+        transition: none;
+    }
+
+    .hackathon:hover, .gaming:hover, .workshops:hover, .trips:hover {
+        background-position: 0px 0px !important;
+    }
+}
