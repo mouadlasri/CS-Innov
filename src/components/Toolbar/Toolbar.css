@@ -75,7 +75,6 @@ html {
 
     .nav {
         justify-content: center !important;
-        /* margin-left: 0px;/ */
     }
 /* 
     .navbar-nav {
@@ -101,12 +100,21 @@ html {
         margin-top: 20px !important;
     }
 
-    .navbar .navbar-nav {
+    .nav {
+        margin: 0px;
+    }
+    /* .navbar .navbar-nav {
     display: inline-block;
     float: none;
+} */
 }
+
+@media (max-width: 359px) {
+    .nav {
+        display: inline-block;  
+    }
+
     .nav-item {
-        display: inline-block !important;
-        width: 100%;
+        margin-top: 10px;
     }
 }
