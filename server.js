@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
 });
 
 // server static files from the react app
-app.use(express.static(__dirname, 'client/build'));
+app.use(express.static(__dirname + '/client/build'));
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'));
