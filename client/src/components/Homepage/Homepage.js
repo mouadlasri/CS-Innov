@@ -22,15 +22,9 @@ const Homepage = () => {
             <div className="home-page">
                 <Toolbar />
                 {/* <h1 className="club-title">Computer Science  <span className="home-page-for">for</span>  Innovation</h1> */}
-                <h1 style={{ fontFamily: 'Baloo Tammudu'}}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Cinzel' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Do Hyeon' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Monoton' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Russo One' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Unlock' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Arial' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Helvetica' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 style={{ fontFamily: 'Audiowide' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
+                
+                <h1 className="club-title" style={{ fontFamily: 'Cinzel' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
+                <h1 className="club-title" style={{ fontFamily: 'Audiowide' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
            </div>
             
             {/* <main style={{ marginTop: "56px" }} >
