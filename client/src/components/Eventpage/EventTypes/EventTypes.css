@@ -11,7 +11,7 @@
     display: flex; */
     color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
-    padding-top: 18%;
+    padding-top: 22%;
     transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
 }
@@ -39,8 +39,8 @@
     color: black;
     /* color: white; */
     font-family: 'Montserrat';
-    transform: translate(0%, -45%);
-    -webkit-transform: translate(0%, -45%);
+    transform: translate(0%, -55%);
+    -webkit-transform: translate(0%, -55%);
 }
 
 .hackathon:hover, .trips:hover, .gaming:hover, workshops:hover {
@@ -55,6 +55,7 @@
     transition: all 1s ease-in-out;
     opacity: 1;
     visibility: visible;
+    padding-bottom: 30px;
 
 }
 

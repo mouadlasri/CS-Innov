@@ -22,9 +22,9 @@ const Homepage = () => {
             <div className="home-page">
                 <Toolbar />
                 {/* <h1 className="club-title">Computer Science  <span className="home-page-for">for</span>  Innovation</h1> */}
-                
-                <h1 className="club-title" style={{ fontFamily: 'Cinzel' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
-                <h1 className="club-title" style={{ fontFamily: 'Audiowide' }}>Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
+                <h1 className="club-title" style={{ fontFamily: 'Audiowide' }}>Computer Science</h1>
+                <h1 className="club-title"><span className="home-page-for">for</span></h1>
+                <h1 className="club-title">Innovation</h1>
            </div>
             
             {/* <main style={{ marginTop: "56px" }} >
