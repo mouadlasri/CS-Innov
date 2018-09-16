@@ -2,7 +2,6 @@ import React from 'react';
 
 import Toolbar from '../Toolbar/Toolbar.js';
 import Events from '../Eventpage/Events/Events.js';
-import MainSection from '../MainSection/MainSection.js';
 import Footer from '../Footer/Footer.js';
 import Form from '../Form/Form.js';
 
@@ -13,6 +12,8 @@ const Homepage = () => {
         <div>
             <div className="home-page">
                 <Toolbar />
+                <h1 className="club-title">Computer Science  <span className="home-page-for">for</span>  Innovation</h1>
+                
             </div>
             
             {/* <main style={{ marginTop: "56px" }} >
