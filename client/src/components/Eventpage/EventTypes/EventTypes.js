@@ -23,7 +23,7 @@ const EventTypes = () => {
             <div className="row" style={{ marginTop: "0px" }}>
                 <div className="col-md-6 ml-auto mr-auto workshops">
                     <h1>Workshops</h1>
-                    <p>Each semester, Computer Science for Innovation organizes various workshops in different fields of computer science (Web Dev, Mobile Dev, AI...).</p>
+                    <p>Every semester, Computer Science for Innovation organizes various workshops in different fields of computer science (Web Dev, Mobile Dev, AI...).</p>
                 </div>
                 <div className="col-md-6 ml-auto mr-auto gaming">
                     <h1>Gaming</h1>

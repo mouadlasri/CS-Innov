@@ -69,10 +69,12 @@
 
 .hackathon {
     /* background-image: url('../../../hackathons.jpg'); */
-    background-image: url('https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg');
+    /* background-image: url('https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg'); */
+    /* background-image: url('../../../code-op.png'); */
+    background-image: url('https://adrianalonso.es/wp-content/uploads/2017/05/code.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(40%);
+    /* filter: grayscale(40%); */
     transition: all 0.5s ease;
 }
 
@@ -101,7 +103,9 @@
     /* background-image: url('./mean-stack.jpg'); */
     /* background-image: url('../../../workshops.jpg'); */
     /* background-image: url('../../../opacity-workshops.png'); */
-    background-image: url('https://adrianalonso.es/wp-content/uploads/2017/05/code.jpg');
+    /* background-image: url('https://adrianalonso.es/wp-content/uploads/2017/05/code.jpg'); */
+    /* background-image: url('https://cdn-images-1.medium.com/max/2000/1*OOWSoWHeQ5kyJ4N0P2ptNA.png'); */
+    background-image: url('../../../ws-op.png');
     background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
