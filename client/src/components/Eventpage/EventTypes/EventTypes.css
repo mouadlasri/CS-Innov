@@ -23,6 +23,8 @@
         align-items: center;
         display: flex;
         transition: all 0.7s ease-in-out; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Montserrat';
 }
 
 .event-types h1:hover {

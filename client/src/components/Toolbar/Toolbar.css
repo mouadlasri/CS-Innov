@@ -38,7 +38,7 @@ html {
 }
 
 .nav {
-    margin-top: 15px;
+    margin-top: .5em;
     margin-right: 20px;
     align-content: center;
 }
@@ -76,23 +76,6 @@ html {
     .nav {
         justify-content: center !important;
     }
-/* 
-    .navbar-nav {
-        margin-top: 0px;
-    }
-
-    .button-join {
-        margin-top: 10px;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center !important;
-    }
-
-    .navbar-nav {
-        display: inline-block !important;
-        float: none !important;
-    } */
 }
 
 @media (max-width: 490px) {
@@ -103,10 +86,6 @@ html {
     .nav {
         margin: 0px;
     }
-    /* .navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-} */
 }
 
 @media (max-width: 359px) {

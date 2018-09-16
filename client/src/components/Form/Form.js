@@ -21,21 +21,21 @@ class Form extends React.Component {
                     <div className="col">
                         <div className="form-group">
                             <label htmlFor="fullname" style={{ float: "left" }}>Name</label>
-                            <input type="text" name="name" id="fullname" className="form-control" />
+                            <input type="text" name="name" id="fullname" className="form-control" required/>
                         </div>
                     </div>
                     <div className="col">
                         <div className="form-group">
                             <label htmlFor="fullname" style={{ float: "left" }}>ID</label>
-                            <input type="text" name="id" id="id" className="form-control" />
+                            <input type="text" name="id" id="id" className="form-control" required/>
                         </div>
                     </div>
                 </div>
                <div className="form-group">
                 <label htmlFor="description" style={{ float: "left" }}>Brief Description (Year, Major, Interests..)</label>
-                <textarea name="description" id="" rows="5" className="form-control"></textarea>
+                <textarea name="description" id="" rows="5" className="form-control" required></textarea>
                </div>
-                <button type="submit" className="form-control btn btn-info">Submit</button>
+                <button type="submit" className="form-control btn btn-info">Join us!</button>
                 
             </form>
         )

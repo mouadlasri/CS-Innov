@@ -9,7 +9,7 @@ body {
 }
 
 .about-page, .join-page, .home-page, .event-page {
-  min-height: calc(100vh - 0px);
+  min-height: calc(100vh - 64px);
 }
 
 @media screen and (max-width: 599px) {

@@ -37,10 +37,12 @@
 
 .event-details p{
   float: left;
+  font-family: 'Trebuchet MS';
 }
 
 .event-summary {
-  
+  padding-top: 10px;
+  font-family: 'Trebuchet MS';
 }
 
 .event-summary p {
@@ -58,3 +60,5 @@
   padding-bottom: 5px;
   margin-bottom: 50px;
 }
+
+/* @media (max-width:) */

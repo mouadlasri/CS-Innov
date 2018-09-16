@@ -1,6 +1,11 @@
 form {
-    margin-bottom: 100px;
-    padding-bottom: 100px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+form .col {
+    padding-right: 0px;
 }
 
 @media (max-width: 490px) {
