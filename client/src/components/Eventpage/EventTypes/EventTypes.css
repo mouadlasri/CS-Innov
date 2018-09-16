@@ -83,7 +83,8 @@
     /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg'); */
     /*used one*//* background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg'); */
     /* background-image: url('../../../devoxx-logo.jpg'); */
-    background-image: url('../../../trips.png');
+    /* background-image: url('../../../trips-op.png'); */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../../trips-op.png');
     background-repeat: no-repeat;
     background-size: cover;
     /* filter: grayscale(0%); */
@@ -93,7 +94,9 @@
 }
 
 .gaming {
-    background-image: url('../../../gaming-op.png');
+    /* background-image: url('../../../gaming.jpg'); */
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../../../gaming.jpg');
+    /* background-image: url('http://www.lol-wallpapers.com/wp-content/uploads/2017/05/Classic-Sejuani-Splash-Art-4k-HD-Wallpaper-Official-Artwork-League-of-Legends-lol.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0%);

@@ -31,3 +31,11 @@
   color: #17a2b8;
   margin: 0px 20px;
 }
+
+.home-page #title {
+  font-size: 4.5em;
+}
+
+.home-page #title-innov {
+  font-size: 4em;
+}
