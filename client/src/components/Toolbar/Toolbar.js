@@ -9,7 +9,7 @@ const Toolbar = () => {
         <div className="container-fluid">
             <nav className="navbar navbar-light navbar-expand-lg">
                 {/* <a href="#" className="navbar-brand"><img src="" alt=""/><img src={CSILogo} alt="" id="logo"/></a> */}
-                <a href="#" className="navbar-brand"><span className="logo-letter">C</span>SInnov</a>
+                <a href="/" className="navbar-brand"><span className="logo-letter">C</span>SInnov</a>
                 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
                     <span className="navbar-toggler-icon"></span>
