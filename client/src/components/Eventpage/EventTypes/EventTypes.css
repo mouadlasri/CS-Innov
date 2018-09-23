@@ -18,12 +18,6 @@
 
 .event-types p {
     color: white;
-    /* height: 100%; */
-        /* justify-content: center;
-        align-items: center;
-        display: flex;
-        transition: all 0.7s ease-in-out; */
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: 'Montserrat';
 }
 
@@ -69,9 +63,6 @@
 }
 
 .hackathon {
-    /* background-image: url('../../../hackathons.jpg'); */
-    /* background-image: url('https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg'); */
-    /* background-image: url('../../../code-op.png'); */
     background-image: url('https://adrianalonso.es/wp-content/uploads/2017/05/code.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,23 +71,14 @@
 }
 
 .trips {
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL5dZhEj7HSplPcEuwbusf0YQ_qyJJMA-KPZcd-wfOBvEl8MnQg'); */
-    /*used one*//* background-image: url('https://eventil.s3.amazonaws.com/uploads/event/header_image/7178/card_logo_devoxx.jpg'); */
-    /* background-image: url('../../../devoxx-logo.jpg'); */
-    /* background-image: url('../../../trips-op.png'); */
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../../trips-op.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* filter: grayscale(0%); */
-    /* background-position: 0% 0%; */
-    /* background-position-y: 10px; */
     transition: all 0.5s ease;
 }
 
 .gaming {
-    /* background-image: url('../../../gaming.jpg'); */
     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../../../gaming.jpg');
-    /* background-image: url('http://www.lol-wallpapers.com/wp-content/uploads/2017/05/Classic-Sejuani-Splash-Art-4k-HD-Wallpaper-Official-Artwork-League-of-Legends-lol.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0%);
@@ -104,11 +86,6 @@
 }
 
 .workshops {
-    /* background-image: url('./mean-stack.jpg'); */
-    /* background-image: url('../../../workshops.jpg'); */
-    /* background-image: url('../../../opacity-workshops.png'); */
-    /* background-image: url('https://adrianalonso.es/wp-content/uploads/2017/05/code.jpg'); */
-    /* background-image: url('https://cdn-images-1.medium.com/max/2000/1*OOWSoWHeQ5kyJ4N0P2ptNA.png'); */
     background-image: url('../../../ws-op.png');
     background-position: 50% 0%;
     background-repeat: no-repeat;

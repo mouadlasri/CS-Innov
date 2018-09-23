@@ -8,22 +8,13 @@ import Form from '../Form/Form.js';
 import './Homepage.css';
 
 const Homepage = () => {
-    // font - family: 'Audiowide', cursive;
-    // font - family: 'Baloo Tammudu', cursive;
-    // font - family: 'Cinzel', serif;
-    // font - family: 'Do Hyeon', sans - serif;
-    // font - family: 'Monoton', cursive;
-    // font - family: 'Orbitron', sans - serif;
-    // font - family: 'Press Start 2P', cursive;
-    // font - family: 'Russo One', sans - serif;
-    // font - family: 'Unlock', cursive;
     return (
         <div>
             <div className="home-page">
                 <Toolbar />
                 {/* <h1 className="club-title">Computer Science  <span className="home-page-for">for</span>  Innovation</h1> */}
                 <h1 className="club-title" id="title" style={{ fontFamily: 'Audiowide' }}>Computer Science</h1>
-                <h1 className="club-title"><span className="home-page-for">for</span></h1>
+                <h1 className="club-title home-for"><span className="home-page-for">for</span></h1>
                 <h1 className="club-title" id="title-innov">Innovation</h1>
            </div>
             
