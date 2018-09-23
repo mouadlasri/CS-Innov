@@ -54,12 +54,12 @@
 
 @media (max-width: 400px) {
   .home-page #title {
-    font-size: 3em;
+    font-size: 3em !important;
   }
 
   .home-page #title-innov {
-    font-size: 2.5em;
-    margin-top: 30px;
+    font-size: 2.5em !important;
+    margin-top: 30px !important;
   }
 
   .home-page-for {
