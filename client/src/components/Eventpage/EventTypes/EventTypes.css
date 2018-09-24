@@ -4,11 +4,6 @@
 }
 
 .event-types h1 {
-    /* color: white;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex; */
     color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
     padding-top: 22%;
@@ -124,5 +119,32 @@
 
     .hackathon:hover, .gaming:hover, .workshops:hover, .trips:hover {
         background-position: 0px 0px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hackathon {
+        background-position: center !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .event-date {
+        margin:  auto;
+    }
+    
+    .events .row {
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid #343a40;
+    }
+
+    .events .event-details {
+        margin-top: 10px;
+    }
+
+    .events .event-details p {
+        text-align: center !important;
+        width: 100%;
     }
 }

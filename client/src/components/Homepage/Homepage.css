@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 722px) {
+  .home-page {
+    background-position: 25% 0%;
+  }
+
   .home-page #title {
     margin-bottom: 0px;
   }

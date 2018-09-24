@@ -10,20 +10,20 @@ const Events = (props) => {
         return (
             <div className="row justify-content-md-center" key={event.id}>
                 {/* <div className="col-1"></div> */}
-                <div className="col-2 col-sm-2 col-md-2 col-lg-2 offset-1 event-date text-center">
+                <div className="col-xs-12  col-sm-2 col-md-2 col-lg-2 offset-1 event-date text-center">
                     <span className="event-day">{event.date}</span>
                     <span className="event-month">{event.month}</span>
                 </div>
                 {/* <div className="col-1">
                 </div> */}
-                <div className="col-4 col-sm-4 col-md-4 col-lg-3 event-details text-left border-left border-right">
+                <div className="col-xs-12  col-sm-4 col-md-4 col-lg-3 event-details text-left border-left border-right">
                     <p className="h6 event-title">CS Club Meeting</p>
                     <p className="text-muted event-subtitle">
                         <i className="fa fa-map-marker"></i> {event.location} <br />
                         <i className="fa fa-clock-o"></i> {event.time}
                 </p>
                 </div>
-                <div className="col-5 col-sm-4 col-md-4 col-lg-4 event-summary">
+                <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 event-summary">
                     <p>{event.description}</p>
                 </div>
             </div>
