@@ -104,3 +104,9 @@
         transform: scale(1);
     }
 }
+
+@media (max-width: 550px) {
+    .about-image-1 {
+        background-position: center;
+    }
+}
