@@ -18,10 +18,10 @@ class Eventpage extends React.Component {
             },
             {
                 id: 2,
-                date: '21',
+                date: '25',
                 month: 'SEP',
                 location: 'SAO Meeting Room, Building 14 upstairs',
-                time: '9 pm',
+                time: '8:30 pm',
                 description: 'Our first club meeting. Come join us to discuss the events and plans for this semester!',
             }
         ]
