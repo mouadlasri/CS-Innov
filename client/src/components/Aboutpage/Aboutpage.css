@@ -47,10 +47,10 @@
 
 .about-image-1 {
     background-color: #c3c3c3;
-    background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/17498977_10212466583042785_1085763098092902046_n.jpg?_nc_cat=0&oh=baa2f22b0512c32d2a72570f6f94cdc5&oe=5C26C22E');
-    background-size: cover;
+    background-image: url('./images/web-workshop.jpg');
+    background-size: fit;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 400px;
 }
 
 .about-image-1:hover, .about-image-2:hover {
@@ -63,10 +63,10 @@
 
 .about-image-2 {
     background-color: #c3c3c3;
-    background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/16003169_1330451793679395_5716448801899898900_n.jpg?_nc_cat=0&oh=edec99029a1097b436c62965f69d17b5&oe=5C2A3FAA');
+    background-image: url('./images/android-workshop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 400px;
 }
 
 .events-button, .joinus-button {
